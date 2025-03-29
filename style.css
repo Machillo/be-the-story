@@ -75,3 +75,27 @@ body {
     background-color: #00bfa6;
   }
   
+  /* Cambios de estadisticas*/
+
+  .stat-change-up {
+    color: #00ff88;
+    transition: color 0.5s ease;
+  }
+  
+  .stat-change-down {
+    color: #ff4444;
+    transition: color 0.5s ease;
+  }
+  
+  @keyframes flashGreen {
+    0% { color: #00ffcc; }
+    50% { color: #00ff00; }
+    100% { color: #00ffcc; }
+  }
+  
+  @keyframes flashRed {
+    0% { color: #00ffcc; }
+    50% { color: #ff4444; }
+    100% { color: #00ffcc; }
+  }
+  

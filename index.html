@@ -11,11 +11,11 @@
       <h1>Simulador de Decisiones</h1>
 
       <div class="stats">
-        <p>Salud: <span id="stat-health">50</span></p>
-        <p>Moral: <span id="stat-morale">50</span></p>
-        <p>Energía: <span id="stat-energy">50</span></p>
-        <p>Inteligencia: <span id="stat-intelligence">50</span></p>
-        <p>Motivación: <span id="stat-motivation">50</span></p>
+        <p>Salud: <span id="stat-salud">50</span></p>
+        <p>Moral: <span id="stat-moral">50</span></p>
+        <p>Energía: <span id="stat-energia">50</span></p>
+        <p>Inteligencia: <span id="stat-inteligencia">50</span></p>
+        <p>Motivación: <span id="stat-motivacion">50</span></p>
       </div>
 
       <div class="scene" id="scene">
@@ -23,11 +23,24 @@
       </div>
 
       <div class="choices">
-        <button id="choice1">Abrir la puerta</button>
-        <button id="choice2">Rodear la estructura</button>
-        <button id="choice3">Esperar y observar</button>
+        <button id="choice1">Opción 1</button>
+        <button id="choice2">Opción 2</button>
+        <button id="choice3">Opción 3</button>
       </div>
     </div>
+    <canvas
+      id="fireworks-canvas"
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        display: none;
+        z-index: 9999;
+      "
+    ></canvas>
 
     <script src="script.js"></script>
   </body>

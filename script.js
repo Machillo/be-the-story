@@ -15,87 +15,87 @@ class Option {
 
 const option0 = new Option('Abrir la puerta y enfrentar lo desconocido', {motivacion: +10}, 1);
 const option1 = new Option('Rodear la estructura buscando otra entrada', {motivacion: +2}, 13);
-const option2 = new Option('Esperar y observar con cautela', {motivacion: -2}, 26);
+const option2 = new Option('Esperar y observar con cautela', {motivacion: -2}, 27);
 const scene0 = new Scene('Estás de pie frente a una antigua puerta misteriosa. ¿Qué harás?', [option0, option1, option2]);
 
 const option3 = new Option('Intentas calmar a todos y proponer una conversación sana.', {inteligencia: +2, moral: +2, motivacion: +1}, 2);
 const option4 = new Option('Estallas emocionalmente y tomas partido en la discusión.', {salud: -1, moral: -2, energia: +2}, 14);
-const option5 = new Option('No dices nada. Te das la vuelta y te marchas sin intervenir.', {motivacion: -1, moral: -2, inteligencia: +1}, 27);
+const option5 = new Option('No dices nada. Te das la vuelta y te marchas sin intervenir.', {motivacion: -1, moral: -2, inteligencia: +1}, 28);
 const scene1 = new Scene('Al cruzar la puerta, apareces en el comedor de tu casa. Tu familia discute fuerte por temas económicos y viejos rencores. Tu presencia tensa aún más el ambiente. ¿Cómo reaccionas?', [option3, option4, option5]);
 
 const option6 = new Option('No es que me crea mejor. Solo estoy tratando de mejorar mi vida. Si eso les molesta, lo lamento.', {inteligencia: +1, moral: +1, motivacion: +2}, 3);
 const option7 = new Option('Tenés razón, me he vuelto medio intenso últimamente, jaja...', {motivacion: -1, moral: -1, energia: +2}, 15);
-const option8 = new Option('No dices nada. Te levantás y salís sin mirar atrás.', {motivacion: -2, moral: -1, inteligencia: +1}, 27);
+const option8 = new Option('No dices nada. Te levantás y salís sin mirar atrás.', {motivacion: -2, moral: -1, inteligencia: +1}, 29);
 const scene2 = new Scene('Vas a una pequeña reunión con tus amigos de siempre. Notas que ya no tienen los mismos intereses: hablan de lo mismo de siempre, se burlan de tus nuevos hábitos y uno incluso te dice que "te creés mejor que los demás". ¿Qué haces?', [option6, option7, option8]);
 
 const option9 = new Option('Dios, si estás ahí, guíame. No quiero rendirme, pero me siento perdido...', {energia: +1, moral: +2, motivacion: +2}, 4);
 const option10 = new Option('Mejor veo un par de videos, así se me pasa esto...', {motivacion: -1, inteligencia: -1, energia: +1}, 16);
-const option11 = new Option('¿Dónde estás cuando más te necesito?', {salud: -1, moral: -1, inteligencia: +1}, 28);
+const option11 = new Option('¿Dónde estás cuando más te necesito?', {salud: -1, moral: -1, inteligencia: +1}, 30);
 const scene3 = new Scene('Te encontrás solo en tu cuarto, después de un mal día. Sentís que nada avanza, que tus esfuerzos no dan frutos. Mirás al techo y te preguntás si alguien allá arriba realmente te escucha. Por primera vez en mucho tiempo, pensás en orar. ¿Qué haces?', [option9, option10, option11]);
 
 const option12 = new Option('Me gustás, pero necesito claridad. No quiero jugar con sentimientos, ni con los tuyos ni con los míos.', {inteligencia: +2, moral: +1, motivacion: +2}, 5);
 const option13 = new Option('Está bien, no me importa si no tenés claro lo que querés. Yo me quedo igual...', {motivacion: -1, moral: -1, salud: +1}, 17);
-const option14 = new Option('No necesito esto. Me bloqueo y ya.', {inteligencia: -1, salud: -2, energia: +1}, 29);
+const option14 = new Option('No necesito esto. Me bloqueo y ya.', {inteligencia: -1, salud: -2, energia: +1}, 31);
 const scene4 = new Scene('Sales con alguien desde hace 2 años, que te inspira y te hace sentir visto de una forma distinta. Pero pronto notás que la otra persona cambia y te manda señales confusas. ¿Qué hacés?', [option12, option13, option14]);
 
 const option15 = new Option('No quiero esconder más esto. Voy a escribir lo que siento y dejarlo salir...', {inteligencia: +2, moral: +1, salud: +2}, 6);
 const option16 = new Option('No tengo tiempo para dramas. Apretás los dientes y seguís con tu día.', {motivacion: -1, salud: -1, energia: +1}, 18);
-const option17 = new Option('Necesito apagar la cabeza. Lo que sea que me saque de esto.', {inteligencia: -1, moral: -2, energia: +2}, 30);
+const option17 = new Option('Necesito apagar la cabeza. Lo que sea que me saque de esto.', {inteligencia: -1, moral: -2, energia: +2}, 32);
 const scene5 = new Scene('Una noche, en la soledad de tu cuarto, todo se te viene encima. Pensamientos como "¿y si no soy suficiente?", "¿y si todo esto no sirve de nada?" te llenan la cabeza. Sentís un nudo en el pecho. Nadie te hizo daño hoy, pero igual estás cayendo. ¿Qué hacés?', [option15, option16, option17]);
 
 const option18 = new Option('No fue un error amar. Fue parte de mi camino. No me voy a castigar por sentir.', {inteligencia: +2, moral: +2, motivacion: +1}, 7);
 const option19 = new Option('Ya fue... al menos sé cómo anestesiarme por un rato.', {moral: -1, salud: -2, energia: +2}, 19);
-const option20 = new Option('Nunca voy a encontrar a alguien como ella... necesito a alguien que me haga sentir eso otra vez.', {inteligencia: -1, motivacion: -2, energia: +1}, 31);
+const option20 = new Option('Nunca voy a encontrar a alguien como ella... necesito a alguien que me haga sentir eso otra vez.', {inteligencia: -1, motivacion: -2, energia: +1}, 33);
 const scene6 = new Scene('Después de meses de confusión y señales mixtas, la relación termina de forma fría, sin muchas palabras. Te das cuenta de que te aferraste a una idea más que a una realidad. Sentís el golpe profundo, como un error que no supiste evitar. ¿Qué hacés ahora?', [option18, option19, option20]);
 
 const option21 = new Option('Basta de sobrevivir. Quiero construir algo que de verdad tenga sentido para mí.', {inteligencia: +2, energia: +1, motivacion: +2}, 8);
 const option22 = new Option('Esto no puede seguir así... algún día voy a cambiar. Lo prometo.', {moral: +1, motivacion: -1, salud: +1}, 20);
-const option23 = new Option('Ya entendí. Esto no cambia. Mejor me adapto a lo que hay y dejo de luchar.', {inteligencia: -1, motivacion: -2, salud: +1}, 32);
+const option23 = new Option('Ya entendí. Esto no cambia. Mejor me adapto a lo que hay y dejo de luchar.', {inteligencia: -1, motivacion: -2, salud: +1}, 34);
 const scene7 = new Scene('Una tarde cualquiera, mientras caminás sin rumbo, te encontrás pensando en todo lo que viviste últimamente. No fue fácil. Algunas cosas te dolieron más de lo que admitís, pero también aprendiste. Por primera vez, sentís que ya no querés ser el de antes. ¿Qué hacés con esa sensación?', [option21, option22, option23]);
 
 const option24 = new Option('No vine a impresionar a nadie. Esto es por mí. Un paso a la vez.', {salud: +3, energia: +1, motivacion: +2}, 9);
 const option25 = new Option('Mejor hago lo que están haciendo ellos... no quiero parecer un tonto.', {energia: +1, inteligencia: -1, salud: -1}, 21);
-const option26 = new Option('Esto no es para mí. No tengo fuerza ni cuerpo. ¿A quién quiero engañar?', {salud: -1, motivacion: -2, moral: +1}, 33);
+const option26 = new Option('Esto no es para mí. No tengo fuerza ni cuerpo. ¿A quién quiero engañar?', {salud: -1, motivacion: -2, moral: +1}, 35);
 const scene8 = new Scene('Te anotás al gimnasio y vas por primera vez. Todo el mundo parece saber qué está haciendo. Te mirás al espejo y no te reconocés. Dudás de si esto realmente es para vos. ¿Qué hacés?', [option24, option25, option26]);
 
 const option27 = new Option('No tengo que saberlo todo hoy. Solo tengo que no rendirme.', {inteligencia: +3, salud: +1, motivacion: +2}, 10);
 const option28 = new Option('Esto no me va a ganar. No voy a parar hasta que lo entienda, aunque me duela.', {energia: +2, moral: -1, salud: -1}, 22);
-const option29 = new Option('Hoy no es el día. Mejor me distraigo un rato y mañana será diferente.', {inteligencia: -1, motivacion: -2, energia: +1}, 34);
+const option29 = new Option('Hoy no es el día. Mejor me distraigo un rato y mañana será diferente.', {inteligencia: -1, motivacion: -2, energia: +1}, 36);
 const scene9 = new Scene('Te sentás frente a la computadora a estudiar algo que siempre te gustó, pero no entendés nada al principio. Te comparás con otros, sentís que vas lento y pensás que tal vez esto no es para vos. ¿Qué hacés?', [option27, option28, option29]);
 
 const option30 = new Option('Prefiero fallar intentando algo mío que quedarme con las ganas toda la vida.', {inteligencia: +1, energia: +2, motivacion: +2}, 11);
 const option31 = new Option('¿Y si primero le pregunto a alguien a ver si vale la pena?', {inteligencia: +1, moral: -1, salud: +1}, 23);
-const option32 = new Option('Esto no es urgente… algún día lo haré, cuando esté listo.', {moral: +1, motivacion: -2, energia: -1}, 35);
+const option32 = new Option('Esto no es urgente… algún día lo haré, cuando esté listo.', {moral: +1, motivacion: -2, energia: -1}, 37);
 const scene10 = new Scene('Después de todo lo vivido, tenés una idea: un proyecto propio. Algo que refleja tus valores, tu historia y tus talentos. Pero justo cuando estás por empezarlo, te ataca la duda: "¿y si nadie lo apoya?", "¿y si me expongo y fallo?". ¿Qué hacés?', [option30, option31, option32]);
 
 const option33 = new Option('Este es el momento por el que trabajé. No tengo todo resuelto, pero estoy listo.', {inteligencia: +2, moral: +2, motivacion: +4, salud: +3, energia: +1}, 12);
 const option34 = new Option('Quiero esto… pero no estoy seguro de estar listo. Necesito pensar bien las cosas.', {inteligencia: +1, energia: -1, motivacion: -1}, 24);
-const option35 = new Option('Estoy bien así. Cambiar tanto ahora podría arruinar todo lo que logré.', {moral: -2, motivacion: -4, salud: +1}, 36);
+const option35 = new Option('Estoy bien así. Cambiar tanto ahora podría arruinar todo lo que logré.', {moral: -2, motivacion: -4, salud: +1}, 38);
 const scene11 = new Scene('Después de meses de esfuerzo, lágrimas y pequeñas victorias, todo parece alinearse: recibís una oportunidad única. Una oferta laboral de lo que estudiaste, una mudanza, un proyecto que te representa, tu cuerpo responde a los cambios en el gimnasio. Para lograrlo, tendrás que salir de tu zona segura, dejar atrás parte de tu rutina, y comprometerte con todo lo que sos. ¿Qué hacés?', [option33, option34, option35]);
 
 const option36 = new Option('Aunque cueste, hoy quiero intentar cambiar algo. Me voy a sentar y hablar con ellos con calma.', {inteligencia: +2, moral: +1, motivacion: +1}, 2);
 const option37 = new Option('No vale la pena meterse. Voy a poner música y olvidarme de esto.', {salud: +1, moral: -1, motivacion: -1}, 14);
-const option38 = new Option('Me voy. Que se maten entre ellos, no me importa.', {moral: -2, motivacion: -1, energia: +1}, 27);
+const option38 = new Option('Me voy. Que se maten entre ellos, no me importa.', {moral: -2, motivacion: -1, energia: +1}, 28);
 const scene13 = new Scene('Estás en casa. Tu familia vuelve a discutir, como tantas veces. Las voces suben, hay dolor, pero también costumbre. Sabés que podrías intentar hacer algo… pero también sabés que nunca cambian. ¿Qué hacés?', [option36, option37, option38]);
 
 const option39 = new Option('Les digo que no. Prefiero descansar y enfocarme en lo mío. Ya no me llena ese ambiente.', {inteligencia: +1, salud: +1, motivacion: +2}, 3);
 const option40 = new Option('Voy un rato, como siempre. No es lo ideal, pero al menos no me aburro.', {energia: +1, moral: -1, motivacion: -1}, 15);
-const option41 = new Option('No respondo. Me quedo viendo redes toda la noche sin hacer nada.', {salud: -1, motivacion: -2, energia: +1}, 28);
+const option41 = new Option('No respondo. Me quedo viendo redes toda la noche sin hacer nada.', {salud: -1, motivacion: -2, energia: +1}, 29);
 const scene14 = new Scene('Es sábado y tus amigos te escriben para salir. Siempre es lo mismo: fiesta, licor, risas vacías. No sentís que crezcas con ellos, pero seguís diciendo que sí. Esta vez, estás cansado, tenés cosas pendientes… pero no querés quedarte solo. ¿Qué hacés?', [option39, option40, option41]);
 
 const option42 = new Option('No importa si es tarde. Hoy vuelvo a hablar con vos, Dios. No puedo más solo.', {motivacion: +1, salud: +1, moral: +2}, 4);
 const option43 = new Option('Dios sabe cómo soy… Él entenderá. No tengo que decirle nada hoy.', {salud: +1, moral: -1, motivacion: -1}, 16);
-const option44 = new Option('Mejor duermo. Si ignoro esto, tal vez se me pase mañana.', {moral: -1, motivacion: -2, energia: -1}, 29);
+const option44 = new Option('Mejor duermo. Si ignoro esto, tal vez se me pase mañana.', {moral: -1, motivacion: -2, energia: -1}, 30);
 const scene15 = new Scene('Estás solo en tu cuarto, de madrugada. Hace tiempo que no hablás con Dios. No es que no creas, pero sentís que la conexión se apagó. Pensás en orar… pero también sentís que sería hipócrita hacerlo solo cuando estás mal. ¿Qué hacés?', [option42, option43, option44]);
 
 const option45 = new Option('Tenés razón. No estoy bien. Quiero hablarlo y ver si podemos reconstruir esto juntos.', {inteligencia: +2, motivacion: +1, moral: +1}, 5);
 const option46 = new Option('Todo está bien, solo estoy cansado. No hagamos drama por tonteras.', {salud: +1, moral: -1, motivacion: -1}, 17);
-const option47 = new Option('No respondés. Cambiás de tema, ponés una serie y esperás que se le pase.', {inteligencia: -1, motivacion: -2, energia: +1}, 30);
+const option47 = new Option('No respondés. Cambiás de tema, ponés una serie y esperás que se le pase.', {inteligencia: -1, motivacion: -2, energia: +1}, 31);
 const scene16 = new Scene('Tu relación sigue, pero ya no se siente igual. Hay mensajes que no contestás, silencios que se hacen largos, y momentos en los que te preguntás si aún están por amor… o por costumbre. Esta noche, después de un silencio incómodo, tu pareja te dice: "¿estás bien? Últimamente te siento distante". ¿Qué hacés?', [option45, option46, option47]);
 
 const option48 = new Option('No puedo seguir así. Voy a escribir lo que siento, aunque sea confuso. Tengo que entenderme.', {inteligencia: +2, motivacion: +1, salud: +1}, 6);
 const option49 = new Option('Es solo un día raro. Voy a poner música, distraerme un poco y seguir como siempre.', {energia: +1, inteligencia: -1, motivacion: -1}, 18);
-const option50 = new Option('Te tirás en la cama. No hacés nada. Ni redes, ni música. Solo vacío.', {salud: -2, motivacion: -2, moral: +1}, 31);
+const option50 = new Option('Te tirás en la cama. No hacés nada. Ni redes, ni música. Solo vacío.', {salud: -2, motivacion: -2, moral: +1}, 32);
 const scene17 = new Scene('Sentís un peso extraño desde que te despertaste. Todo está "bien", pero nada te emociona. Estás rodeado, pero te sentís solo. Recordás las cosas que querías hacer y en qué lugar estás hoy. La vida no está mal… pero ¿esto era todo? ¿Qué hacés con esa sensación?', [option48, option49, option50]);
 
 const option51 = new Option('Tenés razón. No supe cuidar esto. Pero hoy empiezo a cuidarme a mí.', {motivacion: +2, energia: +1, moral: +1}, 7);
@@ -105,27 +105,27 @@ const scene18 = new Scene('Una noche recibís un mensaje. Es tu pareja. Dice que
 
 const option54 = new Option('No quiero seguir así. No importa si es tarde. Voy a empezar con lo que tengo.', {motivacion: +2, inteligencia: +1, moral: +1}, 8);
 const option55 = new Option('Quizás esto es lo que me tocó. No estoy tan mal. Hay gente peor.', {salud: +1, moral: -1, motivacion: -2}, 20);
-const option56 = new Option('No quiero pensar más. Mejor pongo una serie y me duermo..', {motivacion: -2, inteligencia: -1, energia: +1}, 33);
+const option56 = new Option('No quiero pensar más. Mejor pongo una serie y me duermo..', {motivacion: -2, inteligencia: -1, energia: +1}, 34);
 const scene19 = new Scene('Estás solo una noche cualquiera. Pensás en todo lo que viviste últimamente: la relación que perdiste, los sueños que postergaste, el tiempo que se te fue. Sentís que podrías cambiar, pero al mismo tiempo pensás: "¿Y si ya es tarde?" ¿Qué hacés con ese pensamiento?', [option54, option55, option56]);
 
 const option57 = new Option('No importa cuánto me haya caído. Voy a volver, aunque sea con 10 minutos..', {motivacion: +2, inteligencia: +1, salud: +1}, 9);
 const option58 = new Option('Volver ahora sería incómodo. Mejor cuando me sienta con más ganas.', {energia: +1, salud: -1, motivacion: -1}, 21);
-const option59 = new Option('Apagás la luz del baño. No querés seguir viéndote así. Fin del tema.', {moral: -2, motivacion: -1, energia: +1}, 34);
+const option59 = new Option('Apagás la luz del baño. No querés seguir viéndote así. Fin del tema.', {moral: -2, motivacion: -1, energia: +1}, 35);
 const scene20 = new Scene('Hace semanas que no vas al gym. Al principio eran excusas pequeñas, luego te convenciste de que no importaba tanto. Hoy te mirás al espejo y sentís el retroceso. Nada te gusta. Te da vergüenza volver. Pero algo adentro te dice que no deberías soltar del todo. ¿Qué hacés?', [option57, option58, option59]);
 
 const option60 = new Option('No voy a dejar que el tiempo perdido me frene. Hoy empiezo otra vez, aunque sea con 1 lección.', {motivacion: +2, inteligencia: +1, moral: +1}, 10);
 const option61 = new Option('Mejor dejo este curso. Seguro más adelante encuentro algo que me motive más.', {energia: +1, inteligencia: -1, motivacion: -1}, 22);
-const option62 = new Option('Cerrás la pestaña. Te vas a TikTok. En el fondo sabés que no vas a volver hoy.', {motivacion: -2, inteligencia: -1, energia: +1}, 35);
+const option62 = new Option('Cerrás la pestaña. Te vas a TikTok. En el fondo sabés que no vas a volver hoy.', {motivacion: -2, inteligencia: -1, energia: +1}, 36);
 const scene21 = new Scene('Abrís el curso online que habías empezado hace meses. Vas por la lección 3… de 40. Sentís vergüenza, pero también culpa. Tenés tiempo, pero no la motivación. Mirás a otros que avanzaron y pensás que ya es tarde para vos. ¿Qué hacés?', [option60, option61, option62]);
 
 const option63 = new Option('Nunca es tarde para construir algo real. Hoy empiezo, aunque sea solo 1 línea.', {motivacion: +2, energia: +1, inteligencia: +1}, 11);
 const option64 = new Option('Ya fue. Era una buena idea, pero no soy de esos que terminan cosas grandes.', {motivacion: -1, moral: -1, salud: +1}, 25);
-const option65 = new Option('Cerrás todo. Ni siquiera recordás por qué creías que esto iba a funcionar.', {motivacion: -2, inteligencia: -1, energia: +1}, 36);
+const option65 = new Option('Cerrás todo. Ni siquiera recordás por qué creías que esto iba a funcionar.', {motivacion: -2, inteligencia: -1, energia: +1}, 37);
 const scene22 = new Scene('Una vez tuviste una idea que te hacía vibrar: un proyecto tuyo, algo que te representaba. Tenías el nombre, el concepto, hasta un par de diseños guardados. Hoy abrís esa carpeta. Nada cambió. Todo sigue en borrador. Te preguntás si ya es tarde para empezar. ¿Qué hacés?', [option63, option64, option65]);
 
 const option66 = new Option('Estoy cansado de dejar pasar oportunidades. Voy a intentarlo, aunque me tiemblen las piernas.', {motivacion: +2, inteligencia: +1, moral: +1}, 11);
 const option67 = new Option('Suena bien… pero no es el momento. Tal vez en otro año.', {motivacion: -1, salud: -1, energia: +1}, 25);
-const option68 = new Option('Ignorás el correo. Ni lo abrís. Te da ansiedad solo pensar en responder.', {motivacion: -2, moral: -1, energia: +1}, 37);
+const option68 = new Option('Ignorás el correo. Ni lo abrís. Te da ansiedad solo pensar en responder.', {motivacion: -2, moral: -1, energia: +1}, 38);
 const scene23 = new Scene('Te llega una propuesta: una entrevista para un trabajo que siempre quisiste, una oportunidad para mudarte, una beca para estudiar afuera. El tipo de cosas que antes te ilusionaban… pero que ahora te dan miedo. Años de dudas te dejaron lento, inseguro. Esta vez, la decisión es tuya. ¿Qué hacés?', [option66, option67, option68]);
 
 const option69 = new Option('No quiero seguir siendo un fantasma en mi propia casa. Hoy voy a hablar.', {motivacion: +2, inteligencia: +1, moral: +1}, 1);
@@ -180,7 +180,7 @@ const scene36 = new Scene('Encontrás esa libreta donde anotaste tu gran idea. A
 
 const option99 = new Option('No quiero seguir dejando que mi vida se me escape. Hoy salgo de este pozo, aunque sea arrastrándome.', {motivacion: +2, moral: +1, salud: +1}, 11);
 const option100 = new Option('Pensar en eso me angustia. Mejor dejo que pase, como todo lo demás.', {motivacion: -1, salud: -1, energia: +1}, 25);
-const option101 = new Option('Silenciás el celular. Te tapás la cara con la almohada. Fin del pensamiento.', {motivacion: -2, moral: -2, energia: +1}, 37);
+const option101 = new Option('Silenciás el celular. Te tapás la cara con la almohada. Fin del pensamiento.', {motivacion: -2, moral: -2, energia: +1}, 38);
 const scene37 = new Scene('Te despierta una notificación: murió un conocido, alguien que alguna vez fue importante para vos. No eran cercanos, pero el golpe te mueve algo. Te hace pensar en lo poco que estás viviendo, en lo mucho que estás dejando pasar. No sabés por qué, pero sentís que este día es distinto. ¿Qué hacés?', [option99, option100, option101]);
 
 const scene12 = new Scene('Lograste lo que pocos logran: no solo cambiaste tu vida, sino que inspiraste a otros con tu ejemplo. Tu trabajo, tu salud, tu fe, tus relaciones y tu proyecto personal florecen porque no te rendiste. Supiste quién eras y lo defendiste.');
@@ -254,51 +254,70 @@ function selectOption(index) {
   const selectedOption = currentScene.options[index];
 
   for (let key in selectedOption.stats) {
-    playerStats[key] += selectedOption.stats[key];
+    const change = selectedOption.stats[key];
+    playerStats[key] += change;
+
+    const statElement = document.getElementById(`stat-${key}`);
+    statElement.classList.remove("stat-change-up", "stat-change-down");
+
+    if (change > 0) {
+      statElement.classList.add("stat-change-up");
+    } else if (change < 0) {
+      statElement.classList.add("stat-change-down");
+    }
   }
 
   currentScene = allScenes[selectedOption.nextScene];
 
   if (!currentScene.options || currentScene.options.length === 0) {
-    document.getElementById('choice1').style.display = 'none';
-    document.getElementById('choice2').style.display = 'none';
-    document.getElementById('choice3').style.display = 'none';
+    document.getElementById("choice1").style.display = "none";
+    document.getElementById("choice2").style.display = "none";
+    document.getElementById("choice3").style.display = "none";
+
+    triggerFinalEffect();
   } else {
-    document.getElementById('choice1').style.display = 'inline-block';
-    document.getElementById('choice2').style.display = 'inline-block';
-    document.getElementById('choice3').style.display = 'inline-block';
+    document.getElementById("choice1").style.display = "inline-block";
+    document.getElementById("choice2").style.display = "inline-block";
+    document.getElementById("choice3").style.display = "inline-block";
   }
 
   updateUI();
-}
+};
 
 function updateUI() {
-  document.getElementById('scene').innerHTML = `<p>${currentScene.text}</p>`;
+  document.getElementById("scene").innerHTML = `<p>${currentScene.text}</p>`;
 
   const buttons = [
-    document.getElementById('choice1'),
-    document.getElementById('choice2'),
-    document.getElementById('choice3'),
+    document.getElementById("choice1"),
+    document.getElementById("choice2"),
+    document.getElementById("choice3"),
   ];
 
   if (currentScene.options) {
     currentScene.options.forEach((option, i) => {
       if (buttons[i]) {
         buttons[i].textContent = option.text;
+        buttons[i].disabled = false;
       }
     });
   }
 
-  document.getElementById('stat-health').textContent = playerStats.salud;
-  document.getElementById('stat-morale').textContent = playerStats.moral;
-  document.getElementById('stat-energy').textContent = playerStats.energia;
-  document.getElementById('stat-intelligence').textContent = playerStats.inteligencia;
-  document.getElementById('stat-motivation').textContent = playerStats.motivacion;
+  document.getElementById("stat-health").textContent = playerStats.salud;
+  document.getElementById("stat-morale").textContent = playerStats.moral;
+  document.getElementById("stat-energy").textContent = playerStats.energia;
+  document.getElementById("stat-intelligence").textContent = playerStats.inteligencia;
+  document.getElementById("stat-motivation").textContent = playerStats.motivacion;
 }
 
-window.onload = function () {
-  document.getElementById('choice1').addEventListener('click', () => selectOption(0));
-  document.getElementById('choice2').addEventListener('click', () => selectOption(1));
-  document.getElementById('choice3').addEventListener('click', () => selectOption(2));
-  updateUI();
+function triggerFinalEffect() {
+  const resultScene = finalEvaluation(playerStats);
+  document.getElementById("scene").innerHTML = `<p>${resultScene.text}</p>`;
+  console.log("Final alcanzado:", resultScene);
 };
+
+  window.onload = function () {
+    document.getElementById("choice1").addEventListener("click", () => selectOption(0));
+    document.getElementById("choice2").addEventListener("click", () => selectOption(1));
+    document.getElementById("choice3").addEventListener("click", () => selectOption(2));
+    updateUI();
+}
