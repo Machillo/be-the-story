@@ -1,54 +1,43 @@
 # Be the story 🎮
 
-A narrative decision-based web game where every choice shapes your stats and your story.
+Este es un proyecto web interactivo donde el usuario toma decisiones a lo largo de una historia profunda y emocional. Cada elección afecta las estadísticas del personaje (salud, moral, energía, inteligencia, motivación) y lleva al jugador por diferentes caminos narrativos con múltiples finales posibles.
 
-## 🧠 Concept
+## 🚀 Cómo usarlo
 
-You begin at a symbolic crossroads in life. As you make choices, your path branches into one of three directions:
+1. Abre el archivo `index.html` en tu navegador.
+2. Lee la situación planteada.
+3. Elige entre 3 decisiones posibles.
+4. Observa cómo cambian tus estadísticas.
+5. Vive tu historia personal con base en tus elecciones.
 
-- **Self-Improvement** 💪
-- **Conformism** 😐
-- **Inaction** 🛑
-
-Each scene challenges your values, mindset, relationships, and resilience. Your decisions directly affect your character's stats:
-
-- Motivation
-- Morality
-- Intelligence
-- Health
-- Energy
-
-The final outcome of your story is based on how your stats evolve.
-
-## 💻 Technologies
+## 🛠️ Tecnologías usadas
 
 - HTML
 - CSS
-- JavaScript (Vanilla)
-- Object-Oriented Programming
-- DOM manipulation
+- JavaScript (POO)
 
-## 🔥 Features
+## 📊 Estadísticas del jugador
 
-- Interactive choices with real consequences
-- Dynamic stat tracking
-- Final scene changes based on your journey
-- Branching narrative with emotional and realistic depth
+- Salud 🩺
+- Moral ✨
+- Energía ⚡
+- Inteligencia 🧠
+- Motivación 💪
 
-## 🚧 Work in Progress
+Estas estadísticas cambian según las decisiones que tomás.
 
-✅ Path of Self-Improvement  
-🔲 Path of Conformism  
-🔲 Path of Inaction  
-🔲 Visual polish & animations  
-🔲 Save/load system
+## 🎯 Objetivo
 
-## 📂 How to Run
+Explorar cómo nuestras decisiones afectan nuestro camino. Este simulador refleja situaciones reales, luchas internas y momentos claves en el desarrollo personal.
 
-1. Clone the repository  
-2. Open `index.html` in your browser  
-3. Start making choices!
+## 📚 Escenas y decisiones
 
----
+El juego está compuesto por más de 30 escenas con situaciones emocionales, sociales y personales. Cada escena tiene 3 opciones:
+- Una de superación
+- Una de conformismo
+- Una de inacción
 
-> “No se trata de llegar perfecto, sino de avanzar con propósito.”  
+## 📌 Créditos
+
+**PD:** Inspirado en la vida real. Cada decisión cuenta.
+
